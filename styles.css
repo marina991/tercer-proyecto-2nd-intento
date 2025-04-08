@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabecera */
+header {
+    background-color: #a9a6af;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(29, 28, 29);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Categorías */
+.sidebar {
+    width: 25%;
+    background-color: #cdd4f5;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    background-color: #78747c;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Productos */
+.products {
+    width: 75%;
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image-placeholder {
+    width: 0%;
+    height: 0px;
+    background: #ccc;
+    line-height: 150px;
+    text-align: center;
+}
+/* Tabla de Beneficios */
+.benefits {
+    background: rgb(175, 174, 175);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
